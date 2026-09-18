@@ -9,7 +9,7 @@ import tempfile
 from datetime import datetime
 from pathlib import Path
 
-from google import genai
+import google.genai as genai
 from google.genai import errors as genai_errors
 from google.genai import types
 from telethon import TelegramClient, events
